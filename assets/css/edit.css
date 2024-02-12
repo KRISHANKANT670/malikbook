@@ -1,1 +1,70 @@
-/* ****************** for top section ************* */
+/* ****************** for top buttons  ************* */
+
+.row .btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .btn-get-started {
+    background-color: #ff3100;
+}
+
+
+/* *********************** end button section ******************** */
+
+
+/* ******************* slider code starts   ****************************** */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+}
+
+.slide {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+
+/* ******************** slider end ******************************* */
+
+
+/* *********************** iamges section starts *************** */
+
+.container-fluid {
+    transition: all .3s ease;
+    width: 100%;
+}
+
+
+/* ********************************* end the images *************** */
+
+
+/* ************************ heading color change ****************** */
+
+#color-changing-heading {
+    font-size: 40px;
+    font-weight: 400px;
+}
+
+.heading {
+    text-align: center;
+}
+
+
+/* **************************************** kk ********************** */
+
+.carousel-inner1 {
+    padding: 0px 100px;
+    height: 200px;
+}
